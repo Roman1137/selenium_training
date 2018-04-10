@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -28,6 +29,17 @@ namespace selenium_training
             driver.Url = "https://www.google.com.ua";
             driver.FindElement(By.Id(textBoxlocator)).SendKeys(text + Keys.Enter);
             wait.Until(ExpectedConditions.TextToBePresentInElementValue(By.Id(textBoxlocator), text));
+        }
+
+        [Test]
+        public void Login()
+        {
+            const string login = "admin", password = "admin";
+            driver.Url = "http://localhost/litecart/admin";
+            driver.FindElement(By.CssSelector("[name='username']")).SendKeys(login);
+            driver.FindElement(By.CssSelector("[name='password']")).SendKeys(password);
+            driver.FindElement(By.CssSelector("[name='login']")).Click();
+            wait.Until(ExpectedConditions.ElementExists((By.CssSelector("[title='Logout']"))));
         }
 
         [TearDown]
