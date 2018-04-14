@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Lection 1\Lection 1.cs" />
     <Compile Include="Lection 2\Capabilities.cs" />
+    <Compile Include="Lection 2\ComandLineOptions.cs" />
     <Compile Include="Lection 2\CompatibilityWithBrowsers.cs" />
     <Compile Include="Lection 2\SetUpInDifferentBrowsers.cs" />
     <Compile Include="Lection 2\WhereToPutShim.cs" />
