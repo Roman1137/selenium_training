@@ -9,7 +9,7 @@ using OpenQA.Selenium.Support.UI;
 namespace selenium_training
 {
     [TestFixture]
-    public class UnitTest1
+    public class Lection_1
     {
         private IWebDriver driver;
         private WebDriverWait wait;
