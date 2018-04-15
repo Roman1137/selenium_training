@@ -46,7 +46,7 @@ namespace selenium_training.Lection_2
         //{
         //    var options = new InternetExplorerOptions();
         //    options.UnhandledPromptBehavior = UnhandledPromptBehavior.Accept;
-        //    options.IgnoreZoomLevel = true;
+        //    options.IgnoreZoomLevel = true; //игнорирует масштаб
 
         //    driver = new InternetExplorerDriver(options);
         //    driver.Manage().Window.Maximize();

@@ -61,11 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lection 1\Lection 1.cs" />
-    <Compile Include="Lection 2\Capabilities.cs" />
-    <Compile Include="Lection 2\ComandLineOptions.cs" />
-    <Compile Include="Lection 2\CompatibilityWithBrowsers.cs" />
-    <Compile Include="Lection 2\SetUpInDifferentBrowsers.cs" />
-    <Compile Include="Lection 2\WhereToPutShim.cs" />
+    <Compile Include="Lection 2\004_Capabilities.cs" />
+    <Compile Include="Lection 2\005_ComandLineOptions.cs" />
+    <Compile Include="Lection 2\003_CompatibilityWithBrowsers.cs" />
+    <Compile Include="Lection 2\006_GoogleChromeSetUp.cs" />
+    <Compile Include="Lection 2\001_SetUpInDifferentBrowsers.cs" />
+    <Compile Include="Lection 2\002_WhereToPutShim.cs" />
+    <Compile Include="Lection 2\007_InternetExplorerSetUp.cs" />
+    <Compile Include="Lection 2\008_FirefoxSetUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
