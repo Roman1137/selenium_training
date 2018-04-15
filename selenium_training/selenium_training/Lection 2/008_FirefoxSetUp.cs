@@ -42,9 +42,8 @@ namespace selenium_training.Lection_2
         {
             var options = new FirefoxOptions();
             options.UseLegacyImplementation = true;
-            options.BrowserExecutableLocation = @"C:\Program Files (x86)\Mozilla Firefox\firefox.exe";
+            options.BrowserExecutableLocation = @"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"; 
 
-            driver = new FirefoxDriver(options);
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));

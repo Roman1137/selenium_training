@@ -69,6 +69,8 @@
     <Compile Include="Lection 2\002_WhereToPutShim.cs" />
     <Compile Include="Lection 2\007_InternetExplorerSetUp.cs" />
     <Compile Include="Lection 2\008_FirefoxSetUp.cs" />
+    <Compile Include="Lection 2\Cookies.cs" />
+    <Compile Include="Lection 2\PseudoBrowser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
