@@ -28,12 +28,12 @@ namespace selenium_training.Lection_2
         {
             var options = new ChromeOptions();
             // use this in order to run browser with extension
-            options.AddExtension(@"C:\Speedtest-by-Ookla_v1.0.8.crx");
+            //options.AddExtension(@"C:\Speedtest-by-Ookla_v1.0.8.crx");
             // this is useful for specify explicitly the way to Chrome.exe file(to run browser, not driver)
-            options.BinaryLocation = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
-            options.AddArgument("start-maximized");
+            //options.BinaryLocation = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
+            //options.AddArgument("start-maximized");
             //to find more info write chrome://version/ in url line
-            options.AddArgument(@"--user-data-dir = C:\Users\Дракон\AppData\Local\Google\Chrome\User Data\Profile 1");
+            options.AddArgument(@"--user-data-dir=C:\Users\Дракон\AppData\Local\Google\Chrome\User Data\Profile 1");
             //options.AddArguments("--profile-directory = Profile 1");
 
             //Proxy proxy = new Proxy();
