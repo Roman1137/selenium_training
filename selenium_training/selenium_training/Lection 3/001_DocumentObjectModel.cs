@@ -12,7 +12,7 @@ using OpenQA.Selenium.Support.UI;
 namespace selenium_training.Lection_3
 {
     [TestFixture()]
-    public class _001_DocumentObjectModel
+    public class DocumentObjectModel
     {
         private IWebDriver driver;
         private WebDriverWait wait;
@@ -36,6 +36,10 @@ namespace selenium_training.Lection_3
         }
 
         public IWebElement element => driver.FindElement(By.Id("lst-ib"));
+        //после выполнение метода FindElement возвращается уникальный модификатор элемента,
+        //который генерируется динамически(физический адрес элемента).
+        //если элемент с таким идентефикатором пропадает или страница перезагружается - то при
+        //попытке обращения к этому элементу возникнет ошибка StaleElementRefferanceExpection
         [Test]
         public void Login()
         {

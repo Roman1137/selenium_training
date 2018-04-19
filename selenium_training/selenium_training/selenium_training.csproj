@@ -73,6 +73,14 @@
     <Compile Include="Lection 2\009_PseudoBrowser.cs" />
     <Compile Include="Lection 2\011_FewBrowsersAtOneTime.cs" />
     <Compile Include="Lection 3\001_DocumentObjectModel.cs" />
+    <Compile Include="Lection 3\002_Locators.cs" />
+    <Compile Include="Lection 3\005_LocatorComparison.cs" />
+    <Compile Include="Lection 3\006_SearchFromAnotherElement.cs" />
+    <Compile Include="Lection 3\007_SearchingSeveralElements.cs" />
+    <Compile Include="Lection 3\008_ElementNotFound.cs" />
+    <Compile Include="Lection 3\009_WaitForElementPresense.cs" />
+    <Compile Include="Lection 3\010_RulesForLocatorsBuilding.cs" />
+    <Compile Include="Lection 3\011_SearchForElementJavaScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
