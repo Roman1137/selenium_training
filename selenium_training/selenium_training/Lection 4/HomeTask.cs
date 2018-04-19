@@ -94,7 +94,6 @@ namespace selenium_training.Lection_4
         public string titleLocator => "h1[style]";
         //elements for Admin page
         public IReadOnlyCollection<IWebElement> departmentsElements => driver.FindElements(By.CssSelector(departmentLocator));
-       // public IWebElement title => driver.FindElement(By.CssSelector(titleLocator));
         public IReadOnlyCollection<IWebElement> SubDepartmentElements(int index)
         {
             return departmentsElements.ToList()[index].FindElements(By.CssSelector(subDepartmentLocator));
