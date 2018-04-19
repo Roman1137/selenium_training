@@ -8,7 +8,7 @@ namespace selenium_training.Lection_3
 {
     public class CSSselectors
     {
-        // ul# menu li.active   - проблел - это прыжек
+        // ul#menu li.active   - проблел - это прыжек
 
         //1. CSS можно искать используя $$ либо $
         // $$ возвращает все элементы, а $ - первый
