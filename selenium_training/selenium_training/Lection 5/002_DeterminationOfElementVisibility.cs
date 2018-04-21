@@ -15,7 +15,9 @@ namespace selenium_training.Lection_5
     {
         //Селениум не хочет выполнять действия с невидимыми элементами. Т.к пользователь этого сделать не может - Селениум тоже отказывается.
 
-        //Selected - проверяет выбрна ли элемент, Enabled -проверяет свойство Disable, если оно установленно, то возвращает false.
+        //Элемент может быть на странице всгда, но появляться только в нужный момент (пример в валидационным сообщением в лекции)
+
+        //Selected - проверяет выбран ли элемент, Enabled -проверяет свойство Disable, если оно установленно, то возвращает false.
         //Но со Displayed, которое ОПРЕДЕЛЯЕТ Является ли элемент выдимым дела хуже. В DOM element properties нету свойства present,
         //по этому приходится использовать этот метод.
         //Метод звучит так => если человек может увидить элемент глазами, то он возвращает true, если нет - false.
@@ -56,7 +58,7 @@ namespace selenium_training.Lection_5
         }
 
         [Test]
-        public void VerifyEveryDugHasSticker()
+        public void test()
         {
             driver.Url = "https://output.jsbin.com/saqoca/2";
             wait.Until(ExpectedConditions.TextToBePresentInElementLocated(By.CssSelector("h1"),

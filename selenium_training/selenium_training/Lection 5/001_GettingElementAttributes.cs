@@ -80,9 +80,13 @@ namespace selenium_training.Lection_5
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("#fancybox-content")));
             var selectedElement = driver.FindElement(By.CssSelector("[name=currency_code] [value=USD]"));
             var notSelectedElement = driver.FindElement(By.CssSelector("[name=currency_code] [value=EUR]"));
+
             var selectedValue = selectedElement.GetAttribute("selected"); //вернуло значение true
+            var selectedValue1 = selectedElement.Selected; //вернуло значение true
+
             var notSelectedValue = notSelectedElement.GetAttribute("selected"); //вернуло null т.к этот элемент не выбран. 
             //хотя и свойство selected этого элемента имеет значение false, но Selenium вернул null т.к он возвращает или true или null.
+            var selectedValue2 = notSelectedElement.Selected; //свойство Selected вернуло false , а не null
         }
     }
 }

@@ -50,7 +50,7 @@ namespace selenium_training.Lection_5
         }
 
         [Test]
-        public void VerifyEveryDugHasSticker()
+        public void test()
         {
             driver.Url = "http://localhost/litecart/en/";
             wait.Until(ExpectedConditions.TextToBePresentInElementLocated(By.CssSelector("#box-most-popular"),"Most Popular"));

@@ -95,6 +95,8 @@
     <Compile Include="Lection 5\002_DeterminationOfElementVisibility.cs" />
     <Compile Include="Lection 5\001_GettingElementAttributes.cs" />
     <Compile Include="Lection 5\003_GettingElementText.cs" />
+    <Compile Include="Lection 5\004_GettingElementStyles.cs" />
+    <Compile Include="Lection 5\005_ElementSizeAndLocation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
