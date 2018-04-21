@@ -92,6 +92,9 @@
     <Compile Include="Lection 4\010_RulesForLocatorsBuilding.cs" />
     <Compile Include="Lection 4\011_SearchForElementJavaScript.cs" />
     <Compile Include="Lection 4\HomeTask.cs" />
+    <Compile Include="Lection 5\002_DeterminationOfElementVisibility.cs" />
+    <Compile Include="Lection 5\001_GettingElementAttributes.cs" />
+    <Compile Include="Lection 5\003_GettingElementText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
