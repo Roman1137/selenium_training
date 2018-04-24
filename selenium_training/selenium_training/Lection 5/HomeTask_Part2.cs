@@ -58,8 +58,9 @@ namespace selenium_training.Lection_5
             IsElementGray(productInfo.productRegularPriceElement).Should().BeTrue("The regular price in main page should be gray");
             IsElementStrong(productInfo.productCampaignPriceElement).Should().BeTrue("The campaign price in main page should be bold");
             IsElementRed(productInfo.productCampaignPriceElement).Should().BeTrue("The campaign price in main page should be red");
-            productInfo.productCampaignPriceElement.Size.Height.Should().BeGreaterThan(productInfo.productRegularPriceElement.Size.Height);
-            productInfo.productCampaignPriceElement.Size.Width.Should().BeGreaterThan(productInfo.productRegularPriceElement.Size.Width);
+            var regularPriceFontSize = GetElementFont(productInfo.productRegularPriceElement);
+            var campaignPriceFontSize = GetElementFont(productInfo.productCampaignPriceElement);
+            regularPriceFontSize.Should().BeLessThan(campaignPriceFontSize);
             var regularPrice = productInfo.productRegularPriceElement.Text;
             var campaignPrice = productInfo.productCampaignPriceElement.Text;
 
@@ -71,8 +72,15 @@ namespace selenium_training.Lection_5
             IsElementGray(productInfoAtPrPage.productRegularPriceElement).Should().BeTrue("The regular price in product page should be gray");
             IsElementStrong(productInfoAtPrPage.productCampaignPriceElement).Should().BeTrue("The campaign price in product page should be bold");
             IsElementRed(productInfoAtPrPage.productCampaignPriceElement).Should().BeTrue("The campaign price in product page should be red");
-            productInfoAtPrPage.productCampaignPriceElement.Size.Height.Should().BeGreaterThan(productInfoAtPrPage.productRegularPriceElement.Size.Height);
-            productInfoAtPrPage.productCampaignPriceElement.Size.Width.Should().BeGreaterThan(productInfoAtPrPage.productRegularPriceElement.Size.Width);
+            regularPriceFontSize = GetElementFont(productInfoAtPrPage.productRegularPriceElement);
+            campaignPriceFontSize = GetElementFont(productInfoAtPrPage.productCampaignPriceElement);
+            regularPriceFontSize.Should().BeLessThan(campaignPriceFontSize);
+        }
+
+        public double GetElementFont(IWebElement element)
+        {
+            var parsedElementSize = Regex.Match(element.GetCssValue("font-size"), @"^[0-9.]+").ToString().Replace(".", ",");
+            return Convert.ToDouble(parsedElementSize);
         }
 
         private bool IsElementRed(IWebElement element)
