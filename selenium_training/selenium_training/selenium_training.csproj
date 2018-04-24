@@ -98,6 +98,7 @@
     <Compile Include="Lection 5\004_GettingElementStyles.cs" />
     <Compile Include="Lection 5\005_ElementSizeAndLocation.cs" />
     <Compile Include="Lection 5\HomeTask.cs" />
+    <Compile Include="Lection 5\HomeTask_Part2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
