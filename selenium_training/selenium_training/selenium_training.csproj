@@ -101,7 +101,10 @@
     <Compile Include="Lection 5\HomeTask_Part2.cs" />
     <Compile Include="Lection 6\001_LeftClick.cs" />
     <Compile Include="Lection 6\002_SendKeys.cs" />
-    <Compile Include="Lection 6\ClearAndSubmit.cs" />
+    <Compile Include="Lection 6\004_AdvancedInteractionsAPI.cs" />
+    <Compile Include="Lection 6\003_ClearAndSubmit.cs" />
+    <Compile Include="Lection 6\005_WorkWithComplicatedElements.cs" />
+    <Compile Include="Lection 6\006_InteractionWithInvisibleElements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
