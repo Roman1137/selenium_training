@@ -106,6 +106,7 @@
     <Compile Include="Lection 6\005_WorkWithComplicatedElements.cs" />
     <Compile Include="Lection 6\006_InteractionWithInvisibleElements.cs" />
     <Compile Include="Lection 6\HomeTask.cs" />
+    <Compile Include="Lection 6\HomeTask2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +114,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lection 6\Files\ProductPicture.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
