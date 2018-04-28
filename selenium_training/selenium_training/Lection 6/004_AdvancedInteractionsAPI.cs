@@ -67,7 +67,8 @@ namespace selenium_training.Lection_6
         {
             new Actions(this.driver).ContextClick(); //- клик ПАРАВОЙ кнопкой мышки.
             new Actions(this.driver).DoubleClick(); //- двойной клик
-            new Actions(this.driver).Build(); // - с помощь этой команды МОЖНО СОЗДАВАТЬ СВОИ ЦЕПОЧКИ. а потом уже использовать их с помощью perform
+            new Actions(this.driver).Build(); // - вызывается с помощью perform автоматически.чтобы создать цепочку, но не выполнять ее.
+            //вызывается ТОЛЬКО ПОСЛЕ ТОГО, как цепочка уже полностью сформирована.
             new Actions(this.driver).KeyDown(element, Keys.Control); //- сначала перемещает курсор в центр element а потом нажимает Control
             new Actions(this.driver).MoveByOffset(15, 25);//перемещение мышки от текущего местоположения курсора
             //команда Pause() - сейчас ее нет, но ее добавлят опять т.к она нужна будет для формирование цепочки действий

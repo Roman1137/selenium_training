@@ -105,6 +105,7 @@
     <Compile Include="Lection 6\003_ClearAndSubmit.cs" />
     <Compile Include="Lection 6\005_WorkWithComplicatedElements.cs" />
     <Compile Include="Lection 6\006_InteractionWithInvisibleElements.cs" />
+    <Compile Include="Lection 6\HomeTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
