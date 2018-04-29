@@ -19,7 +19,7 @@ namespace selenium_training
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait= TimeSpan.FromSeconds(5);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
 
@@ -79,7 +79,7 @@ namespace selenium_training
             const string text = "selenium", textBoxlocator = "lst-ib";
             driver.Url = "https://www.google.com.ua";
             var a = driver.FindElement(By.Id(textBoxlocator));
-            
+
             driver.Navigate().Refresh();
             a.SendKeys(text + Keys.Enter);
             wait.Until(ExpectedConditions.TextToBePresentInElementValue(By.Id(textBoxlocator), text));
