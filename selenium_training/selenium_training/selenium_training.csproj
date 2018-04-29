@@ -109,7 +109,12 @@
     <Compile Include="Lection 6\HomeTask2.cs" />
     <Compile Include="Lection 7\001_WaitForElementToBePresent.cs" />
     <Compile Include="Lection 7\002_CheckForPresenceAndAbsence.cs" />
-    <Compile Include="Lection 7\WaitUntilElementIsDisappeared.cs" />
+    <Compile Include="Lection 7\004_WaitUntilElementIsVisible.cs" />
+    <Compile Include="Lection 7\003_WaitUntilElementIsDisappeared.cs" />
+    <Compile Include="Lection 7\005_OtherWaits.cs" />
+    <Compile Include="Lection 7\006_WaitForPageToBeLoaded.cs" />
+    <Compile Include="Lection 7\007_ParticularSituations.cs" />
+    <Compile Include="Lection 7\HomeTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
