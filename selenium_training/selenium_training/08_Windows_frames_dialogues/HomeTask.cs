@@ -41,11 +41,11 @@ namespace selenium_training._08_Windows_frames_dialogues
         {
             LoginAsAdministrator();
             GoToEditCountryPage();
-            foreach (var link in BlankLinkElements)
+            BlankLinkElements.ToList().ForEach(link =>
             {
                 var windowId = OpenLinkInOtherPage(link);
                 CloseWindow(windowId);
-            }
+            });
         }
 
         private void CloseWindow(string windowId)
