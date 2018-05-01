@@ -68,53 +68,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lection 2\Lection 2.cs" />
-    <Compile Include="Lection 3\004_Capabilities.cs" />
-    <Compile Include="Lection 3\005_ComandLineOptions.cs" />
-    <Compile Include="Lection 3\003_CompatibilityWithBrowsers.cs" />
-    <Compile Include="Lection 3\006_GoogleChromeSetUp.cs" />
-    <Compile Include="Lection 3\001_SetUpInDifferentBrowsers.cs" />
-    <Compile Include="Lection 3\002_WhereToPutShim.cs" />
-    <Compile Include="Lection 3\007_InternetExplorerSetUp.cs" />
-    <Compile Include="Lection 3\008_FirefoxSetUp.cs" />
-    <Compile Include="Lection 3\010_Cookies.cs" />
-    <Compile Include="Lection 3\009_PseudoBrowser.cs" />
-    <Compile Include="Lection 3\011_FewBrowsersAtOneTime.cs" />
-    <Compile Include="Lection 4\001_DocumentObjectModel.cs" />
-    <Compile Include="Lection 4\002_Locators.cs" />
-    <Compile Include="Lection 4\003_CSSselectors.cs" />
-    <Compile Include="Lection 4\004_XPath.cs" />
-    <Compile Include="Lection 4\005_LocatorComparison.cs" />
-    <Compile Include="Lection 4\006_SearchFromAnotherElement.cs" />
-    <Compile Include="Lection 4\007_SearchingSeveralElements.cs" />
-    <Compile Include="Lection 4\008_ElementNotFound.cs" />
-    <Compile Include="Lection 4\009_WaitForElementPresense.cs" />
-    <Compile Include="Lection 4\010_RulesForLocatorsBuilding.cs" />
-    <Compile Include="Lection 4\011_SearchForElementJavaScript.cs" />
-    <Compile Include="Lection 4\HomeTask.cs" />
-    <Compile Include="Lection 5\002_DeterminationOfElementVisibility.cs" />
-    <Compile Include="Lection 5\001_GettingElementAttributes.cs" />
-    <Compile Include="Lection 5\003_GettingElementText.cs" />
-    <Compile Include="Lection 5\004_GettingElementStyles.cs" />
-    <Compile Include="Lection 5\005_ElementSizeAndLocation.cs" />
-    <Compile Include="Lection 5\HomeTask.cs" />
-    <Compile Include="Lection 5\HomeTask_Part2.cs" />
-    <Compile Include="Lection 6\001_LeftClick.cs" />
-    <Compile Include="Lection 6\002_SendKeys.cs" />
-    <Compile Include="Lection 6\004_AdvancedInteractionsAPI.cs" />
-    <Compile Include="Lection 6\003_ClearAndSubmit.cs" />
-    <Compile Include="Lection 6\005_WorkWithComplicatedElements.cs" />
-    <Compile Include="Lection 6\006_InteractionWithInvisibleElements.cs" />
-    <Compile Include="Lection 6\HomeTask.cs" />
-    <Compile Include="Lection 6\HomeTask2.cs" />
-    <Compile Include="Lection 7\001_WaitForElementToBePresent.cs" />
-    <Compile Include="Lection 7\002_CheckForPresenceAndAbsence.cs" />
-    <Compile Include="Lection 7\004_WaitUntilElementIsVisible.cs" />
-    <Compile Include="Lection 7\003_WaitUntilElementIsDisappeared.cs" />
-    <Compile Include="Lection 7\005_OtherWaits.cs" />
-    <Compile Include="Lection 7\006_WaitForPageToBeLoaded.cs" />
-    <Compile Include="Lection 7\007_ParticularSituations.cs" />
-    <Compile Include="Lection 7\HomeTask.cs" />
+    <Compile Include="02_First_steps\Lection 2.cs" />
+    <Compile Include="03_Browser_launching\004_Capabilities.cs" />
+    <Compile Include="03_Browser_launching\005_ComandLineOptions.cs" />
+    <Compile Include="03_Browser_launching\003_CompatibilityWithBrowsers.cs" />
+    <Compile Include="03_Browser_launching\006_GoogleChromeSetUp.cs" />
+    <Compile Include="03_Browser_launching\001_SetUpInDifferentBrowsers.cs" />
+    <Compile Include="03_Browser_launching\002_WhereToPutShim.cs" />
+    <Compile Include="03_Browser_launching\007_InternetExplorerSetUp.cs" />
+    <Compile Include="03_Browser_launching\008_FirefoxSetUp.cs" />
+    <Compile Include="03_Browser_launching\010_Cookies.cs" />
+    <Compile Include="03_Browser_launching\009_PseudoBrowser.cs" />
+    <Compile Include="03_Browser_launching\011_FewBrowsersAtOneTime.cs" />
+    <Compile Include="04_Looking_for_elements\001_DocumentObjectModel.cs" />
+    <Compile Include="04_Looking_for_elements\002_Locators.cs" />
+    <Compile Include="04_Looking_for_elements\003_CSSselectors.cs" />
+    <Compile Include="04_Looking_for_elements\004_XPath.cs" />
+    <Compile Include="04_Looking_for_elements\005_LocatorComparison.cs" />
+    <Compile Include="04_Looking_for_elements\006_SearchFromAnotherElement.cs" />
+    <Compile Include="04_Looking_for_elements\007_SearchingSeveralElements.cs" />
+    <Compile Include="04_Looking_for_elements\008_ElementNotFound.cs" />
+    <Compile Include="04_Looking_for_elements\009_WaitForElementPresense.cs" />
+    <Compile Include="04_Looking_for_elements\010_RulesForLocatorsBuilding.cs" />
+    <Compile Include="04_Looking_for_elements\011_SearchForElementJavaScript.cs" />
+    <Compile Include="04_Looking_for_elements\HomeTask.cs" />
+    <Compile Include="05_Getting_element_properties\002_DeterminationOfElementVisibility.cs" />
+    <Compile Include="05_Getting_element_properties\001_GettingElementAttributes.cs" />
+    <Compile Include="05_Getting_element_properties\003_GettingElementText.cs" />
+    <Compile Include="05_Getting_element_properties\004_GettingElementStyles.cs" />
+    <Compile Include="05_Getting_element_properties\005_ElementSizeAndLocation.cs" />
+    <Compile Include="05_Getting_element_properties\HomeTask.cs" />
+    <Compile Include="05_Getting_element_properties\HomeTask_Part2.cs" />
+    <Compile Include="06_Actions_with_elements\001_LeftClick.cs" />
+    <Compile Include="06_Actions_with_elements\002_SendKeys.cs" />
+    <Compile Include="06_Actions_with_elements\004_AdvancedInteractionsAPI.cs" />
+    <Compile Include="06_Actions_with_elements\003_ClearAndSubmit.cs" />
+    <Compile Include="06_Actions_with_elements\005_WorkWithComplicatedElements.cs" />
+    <Compile Include="06_Actions_with_elements\006_InteractionWithInvisibleElements.cs" />
+    <Compile Include="06_Actions_with_elements\HomeTask.cs" />
+    <Compile Include="06_Actions_with_elements\HomeTask2.cs" />
+    <Compile Include="07_WebdriverWait\001_WaitForElementToBePresent.cs" />
+    <Compile Include="07_WebdriverWait\002_CheckForPresenceAndAbsence.cs" />
+    <Compile Include="07_WebdriverWait\004_WaitUntilElementIsVisible.cs" />
+    <Compile Include="07_WebdriverWait\003_WaitUntilElementIsDisappeared.cs" />
+    <Compile Include="07_WebdriverWait\005_OtherWaits.cs" />
+    <Compile Include="07_WebdriverWait\006_WaitForPageToBeLoaded.cs" />
+    <Compile Include="07_WebdriverWait\007_ParticularSituations.cs" />
+    <Compile Include="07_WebdriverWait\HomeTask.cs" />
+    <Compile Include="08_Windows_frames_dialogues\001_Alert.cs" />
+    <Compile Include="08_Windows_frames_dialogues\002_UploadingFilesToServer.cs" />
+    <Compile Include="08_Windows_frames_dialogues\003_Windows.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -124,7 +127,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Lection 6\Files\ProductPicture.png">
+    <Content Include="06_Actions_with_elements\Files\ProductPicture.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
