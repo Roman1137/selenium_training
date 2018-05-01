@@ -41,7 +41,7 @@ namespace selenium_training._08_Windows_frames_dialogues
         {
             LoginAsAdministrator();
             GoToEditCountryPage();
-            BlankLinkElements.ToList().ForEach(link =>
+            BlankLinkElements.ForEach(link =>
             {
                 var windowId = OpenLinkInOtherPage(link);
                 CloseWindow(windowId);
@@ -117,6 +117,6 @@ namespace selenium_training._08_Windows_frames_dialogues
 
         //edit country page
         public string BlankLinkLocator => "[enctype] [href^=http]";
-        public IList<IWebElement> BlankLinkElements => driver.FindElements(By.CssSelector(this.BlankLinkLocator));
+        public List<IWebElement> BlankLinkElements => driver.FindElements(By.CssSelector(this.BlankLinkLocator)).ToList();
     }
 }
