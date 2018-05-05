@@ -123,6 +123,7 @@
     <Compile Include="08_Windows_frames_dialogues\006_CloseQuitDispose.cs" />
     <Compile Include="08_Windows_frames_dialogues\007_DownloadingFilesFromServer.cs" />
     <Compile Include="08_Windows_frames_dialogues\HomeTask.cs" />
+    <Compile Include="09_RemoteLaunch\001_SeleniumServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
