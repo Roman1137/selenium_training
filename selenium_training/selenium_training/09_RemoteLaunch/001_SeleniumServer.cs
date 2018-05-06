@@ -74,8 +74,8 @@ namespace selenium_training._09_RemoteLaunch
 
             //Можно или так запускать
             //driver = new RemoteWebDriver(new Uri("http://192.168.0.104:4444/wd/hub"), DesiredCapabilities.Firefox());
-            //или так
-            driver = new RemoteWebDriver(new Uri("http://192.168.0.104:4444/wd/hub"), new FirefoxOptions().ToCapabilities());
+            //или так (Можно и firefox -  new FirefoxOptions().ToCapabilities())
+            driver = new RemoteWebDriver(new Uri("http://192.168.0.104:4444/wd/hub"), new ChromeOptions().ToCapabilities());
         }
 
         [TearDown]
@@ -94,8 +94,19 @@ namespace selenium_training._09_RemoteLaunch
         }
 
         //Есть ещё один способ посмотреть что происходит на удаленной машине где работает Selenium Server
-        //Для этого можно установить с ним соеданение из браузера - http://192.168.0.104:4444/ и выбрать console
+        //Для этого можно установить с ним соединение из браузера используя inet addr-
+        //http://192.168.0.104:4444/ и выбрать console
         //Там есть функция Take Screenshot и можно в любой момент вермени посмотреть что происходит на удаленной машине.
         //Так же можно "закрывать сессии" при помощи "Delete Session"
+
+        //Chrome
+        // https://www.youtube.com/watch?v=i-IVuKG5abc
+        //# Install ChromeDriver.
+        // wget -N http://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip -P ~/
+        // unzip ~/chromedriver_linux64.zip -d ~/
+        //rm ~/chromedriver_linux64.zip
+        //sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
+        //sudo chown root:root /usr/local/bin/chromedriver
+        //sudo chmod 0755 /usr/local/bin/chromedriver
     }
 }
