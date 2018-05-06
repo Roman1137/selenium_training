@@ -127,6 +127,7 @@
     <Compile Include="09_RemoteLaunch\002_SeleniumGrid.cs" />
     <Compile Include="09_RemoteLaunch\HomeTask1.cs" />
     <Compile Include="09_RemoteLaunch\003_SeleniumGridExtras.cs" />
+    <Compile Include="09_RemoteLaunch\SeleniumInClouds.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
