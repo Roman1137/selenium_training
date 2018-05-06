@@ -124,6 +124,8 @@
     <Compile Include="08_Windows_frames_dialogues\007_DownloadingFilesFromServer.cs" />
     <Compile Include="08_Windows_frames_dialogues\HomeTask.cs" />
     <Compile Include="09_RemoteLaunch\001_SeleniumServer.cs" />
+    <Compile Include="09_RemoteLaunch\002_SeleniumGrid.cs" />
+    <Compile Include="09_RemoteLaunch\HomeTask1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
