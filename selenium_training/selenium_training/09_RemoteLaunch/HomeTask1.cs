@@ -43,7 +43,7 @@ namespace selenium_training._09_RemoteLaunch
         [SetUp]
         public void SetUp()
         {
-            //платформу не указываем т.к я настроил, чтобы на виртуальной машине могли запускаться ТОЛЬКО тесты в IE, а на другой - все кроме IE
+            //платформу не указываем т.к я настроил, чтобы на виртуальной машине могли запускаться ТОЛЬКО тесты в Chrome, а на другой - только FireFox
             var options = new ChromeOptions();
             var capabilities = options.ToCapabilities() as DesiredCapabilities;
             driver = new RemoteWebDriver(new Uri("http://192.168.0.102:4444/wd/hub"), capabilities);
