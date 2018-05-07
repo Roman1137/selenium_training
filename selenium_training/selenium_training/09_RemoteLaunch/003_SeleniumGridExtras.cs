@@ -104,7 +104,7 @@ namespace selenium_training._09_RemoteLaunch
         [Test]
         public void RemoteTest()
         {
-            this.driver.Url = "https://selenium2.ru/"; 
+            this.driver.Url = "https://selenium2.ru/";
         }
     }
 }
