@@ -130,6 +130,7 @@
     <Compile Include="09_RemoteLaunch\005_SeleniumInClouds.cs" />
     <Compile Include="09_RemoteLaunch\SeleniumInContainer.cs" />
     <Compile Include="10_RecordKeeping\EventFiringWebDriverCSharp.cs" />
+    <Compile Include="10_RecordKeeping\TakingScreenShot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

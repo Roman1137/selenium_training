@@ -51,7 +51,7 @@ namespace selenium_training._10_RecordKeeping
             var element = wait.Until(d => d.FindElement(By.Name("q")));
             element.SendKeys("webdriver");
             new Actions(this.driver).MoveToElement(driver.FindElement(By.CssSelector("img[alt=Google]"))).Click().Perform();
-            var okButton = wait.Until(d => d.FindElement(By.Name("_btnK")));
+            var okButton = wait.Until(d => d.FindElement(By.Name("btnK")));
             okButton.Click();
             wait.Until(d => d.Title.Equals("webdriver - Поиск в Google"));
 
