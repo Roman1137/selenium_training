@@ -69,7 +69,7 @@ namespace selenium_training._10_RecordKeeping
 
         private string OpenTheProductPage(IWebElement pr)
         {
-            driver.ExecuteJavaScript("arguments[0].setAttribute('target','_blank')", pr);
+            driver.ExecuteJavaScript("arguments[0].setAttribute('target', '_blank')", pr); //Главное - взять в '' кавычки
             var allWindows = driver.WindowHandles;
             pr.Click();
 
