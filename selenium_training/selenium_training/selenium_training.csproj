@@ -129,8 +129,10 @@
     <Compile Include="09_RemoteLaunch\003_SeleniumGridExtras.cs" />
     <Compile Include="09_RemoteLaunch\005_SeleniumInClouds.cs" />
     <Compile Include="09_RemoteLaunch\SeleniumInContainer.cs" />
-    <Compile Include="10_RecordKeeping\EventFiringWebDriverCSharp.cs" />
-    <Compile Include="10_RecordKeeping\TakingScreenShot.cs" />
+    <Compile Include="10_RecordKeeping\003_BrowserLogs.cs" />
+    <Compile Include="10_RecordKeeping\001_EventFiringWebDriverCSharp.cs" />
+    <Compile Include="10_RecordKeeping\002_TakingScreenShot.cs" />
+    <Compile Include="10_RecordKeeping\HomeTask1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
