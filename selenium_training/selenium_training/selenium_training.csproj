@@ -58,6 +58,10 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json.Net20, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AutomatedTester.BrowserMob-master\AutomatedTester.BrowserMob\bin\Debug\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -155,6 +159,29 @@
     <Compile Include="10_RecordKeeping\002_TakingScreenShot.cs" />
     <Compile Include="10_RecordKeeping\HomeTask1.cs" />
     <Compile Include="10_RecordKeeping\HomeTask2.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\001_PageObjects_in_theory\001_PageObjects_in_theory.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\app\Application.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\model\Customer.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\pages\AdminPanelLoginPage.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\pages\CustomerListPage.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\pages\Page.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\pages\RegistrationPage.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\tests\CustomerRegistrationTests.cs.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\tests\DataProviders.cs.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\002_PageObjects_in_practice\tests\TestBase.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\001_PageObjects_in_theory\Application.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\001_PageObjects_in_theory\InnerPage.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\001_PageObjects_in_theory\LoginPage.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\003_Alternative_for_PageObjects\003_Alternative_for_PageObjects.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\app\Application.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\model\ProductModel.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\pages\Cart page.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\pages\Main page.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\pages\Page.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\pages\Product page.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\DataProvider.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\Test.cs" />
+    <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
