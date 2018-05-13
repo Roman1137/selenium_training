@@ -182,6 +182,8 @@
     <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\DataProvider.cs" />
     <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\Test.cs" />
     <Compile Include="11_PageObjects_and_other_design_patterns\HomeTask_PageObjects\tests\TestBase.cs" />
+    <Compile Include="12_Selenium_Extensions\001_Drivers.cs" />
+    <Compile Include="12_Selenium_Extensions\002_Superstructures.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
